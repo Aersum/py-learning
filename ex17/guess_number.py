@@ -7,10 +7,13 @@ while user_numb != numb:
 	user_numb = input(">")
 	try:
 		user_numb = int(user_numb)
+		if user_numb == numb:
+			print("Guessed!")
+		elif user_numb>numb:
+			print(f"{user_numb} more then number to guessed")
+		elif user_numb<numb:
+			print(f"{user_numb} less then number to guessed")
 	except ValueError:
 		if user_numb == 'show':
 			print(numb)
-	if user_numb == numb:
-		print("Guessed!")
-	else:
-		print("Wrong :-(")
+
