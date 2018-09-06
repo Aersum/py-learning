@@ -13,11 +13,13 @@
 ```python 
 print(end1 + end2 + end3 + end4 + end5 + end6, end=' ') 
 ```
- * print ("""
+```python
+print ("""
  Some
           Formatted
     Text
 """)
+```
  * taby_cat = "\tI'm tabbed in."
  * from sys import argv
  * script, name, surname, age = argv
