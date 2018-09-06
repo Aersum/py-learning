@@ -24,10 +24,11 @@
  * target = open(filename,'w')
  * from os.path import exists
  * exists(to_file)
- * ```python
+ *
+```python
 with open(from_file) as f:
 	in_data = f.read()
-	```
+```
  * 
 
 
