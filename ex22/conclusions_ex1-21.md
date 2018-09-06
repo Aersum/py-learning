@@ -8,7 +8,9 @@
  * print("We have",passengers,"to carpool today")
  * round(x) - rounds a number
  * print(f"Let's talk about {name}.") - f-string
- * "Isn't that joke so funny?! {}".format(some_var)
+ ```python
+"Isn't that joke so funny?! {}".format(some_var)
+```
 ```python
 print("."*10) 
 ```
