@@ -53,7 +53,25 @@ exists(to_file)
 with open(from_file) as f:
 	in_data = f.read()
 ```
-
-
+```python
+#so many args
+def print_two(*args):
+	arg1, arg2 = args
+	print(f"arg1: {arg1}, arg2: {arg2}")
+```
+```python
+#Rewind to begin of file
+def rewind(f):
+	f.seek(0)
+```
+```python
+f.readline() #read only one line from current position
+```
+```python
+# standart def form
+def func(arg)
+    b=arg
+    return b
+```
 
 [Return to main repo page](https://github.com/Aersum/py-learning)
