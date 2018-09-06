@@ -5,9 +5,15 @@
  * input
  * ==, >=, <=, !=
  * True, False
- * print("We have",passengers,"to carpool today")
- * round(x) - rounds a number
- * print(f"Let's talk about {name}.") - f-string
+```python
+print("We have",passengers,"to carpool today")
+```
+```python
+round(x) #rounds a number
+```
+```python
+print(f"Let's talk about {name}.") #f-string
+```
  ```python
 "Isn't that joke so funny?! {}".format(some_var)
 ```
@@ -24,20 +30,30 @@ print ("""
     Text
 """)
 ```
- * taby_cat = "\tI'm tabbed in."
- * from sys import argv
- * script, name, surname, age = argv
- * txt = open(filename)
- * print(txt.read())
- * txt.close()
- * target = open(filename,'w')
- * from os.path import exists
- * exists(to_file)
+```python
+taby_cat = "\tI'm tabbed in."
+```
+```python
+from sys import argv
+script, name, surname, age = argv
+```
+```python
+txt = open(filename)
+print(txt.read())
+txt.close()
+```
+```python
+target = open(filename,'w')
+```
+```python
+from os.path import exists
+exists(to_file)
+```
 ```python
 with open(from_file) as f:
 	in_data = f.read()
 ```
- * 
+
 
 
 [Return to main repo page](https://github.com/Aersum/py-learning)
