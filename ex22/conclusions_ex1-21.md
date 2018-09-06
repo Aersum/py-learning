@@ -10,7 +10,9 @@
  * print(f"Let's talk about {name}.") - f-string
  * "Isn't that joke so funny?! {}".format(some_var)
  * print("."*10)
- * ```python print(end1 + end2 + end3 + end4 + end5 + end6, end=' ') ```
+```python 
+print(end1 + end2 + end3 + end4 + end5 + end6, end=' ') 
+```
  * print ("""
  Some
           Formatted
@@ -25,8 +27,6 @@
  * target = open(filename,'w')
  * from os.path import exists
  * exists(to_file)
-```
- *
 ```python
 with open(from_file) as f:
 	in_data = f.read()
