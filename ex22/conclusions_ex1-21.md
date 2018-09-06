@@ -9,7 +9,9 @@
  * round(x) - rounds a number
  * print(f"Let's talk about {name}.") - f-string
  * "Isn't that joke so funny?! {}".format(some_var)
-```python print("."*10) ```
+```python
+print("."*10) 
+```
 ```python 
 print(end1 + end2 + end3 + end4 + end5 + end6, end=' ') 
 ```
