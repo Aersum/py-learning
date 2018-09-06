@@ -1,6 +1,6 @@
 ### EX22
 ### Laearned Pywords list
-```python
+
  * print
  * input
  * ==, >=, <=, !=
@@ -10,7 +10,7 @@
  * print(f"Let's talk about {name}.") - f-string
  * "Isn't that joke so funny?! {}".format(some_var)
  * print("."*10)
- * print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
+ * ```python print(end1 + end2 + end3 + end4 + end5 + end6, end=' ') ```
  * print ("""
  Some
           Formatted
