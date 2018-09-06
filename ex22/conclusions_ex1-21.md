@@ -1,5 +1,6 @@
 ### EX22
 ### Laearned Pywords list
+```python
  * print
  * input
  * ==, >=, <=, !=
@@ -24,6 +25,7 @@
  * target = open(filename,'w')
  * from os.path import exists
  * exists(to_file)
+```
  *
 ```python
 with open(from_file) as f:
