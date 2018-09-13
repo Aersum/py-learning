@@ -13,5 +13,12 @@ def print_line(line, encoding, errors):
 >>> 0b1011010
 90
 ```
+```python
+ord ( ’Z ’ ) #turns character to number in ASCII table
+```
+```python
+chr(90)  #turns Ascii number into character
+```
+
 
 [Return to main repo page](https://github.com/Aersum/py-learning)
