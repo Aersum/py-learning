@@ -10,7 +10,8 @@ def print_line(line, encoding, errors):
 	cooked_string = raw_bytes.decode(encoding, errors = errors)
 ```
 ```python
-
+>>> 0b1011010
+90
 ```
 
 [Return to main repo page](https://github.com/Aersum/py-learning)
