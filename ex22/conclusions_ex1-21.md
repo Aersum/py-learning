@@ -14,6 +14,9 @@ round(x) #rounds a number
 ```python
 print(f"Let's talk about {name}.") #f-string
 ```
+```python
+print("328/30={0:0.2f}".format(x))   #formtting for float numbers
+```
  ```python
 "Isn't that joke so funny?! {}".format(some_var)
 ```
