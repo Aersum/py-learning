@@ -23,7 +23,7 @@ def create_matrix(first_number: int,rows: int, cols: int):
 		row = []
 		for j in range(first_number, first_number + cols):
 			row.append(j)
-		first_number += cols - 1
+		first_number += cols
 		matrix.append(row)
 	#length of the last element of list without ',' and  +2(space chars)	
 	matrix_width = len(str(matrix[-1]).replace(',', '')) + 2 
