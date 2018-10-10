@@ -1,5 +1,0 @@
-Якщо встановлював через python-pip, то на всяк випадок
-sudo apt remove python-pip
-щоб конфлікту не було
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python get-pip.py
