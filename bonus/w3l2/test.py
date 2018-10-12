@@ -1,0 +1,10 @@
+from py3classes import *
+print(Pet)
+p = Pet('dog', 'dolmatine')
+print(p.get_name())
+print(p.get_species())
+print(p)
+monster = CatDogMonster('Franksty', 'transilvpet', 90)
+print(monster.weight)
+print(monster.voice())
+print(CatDogMonster.mro())
