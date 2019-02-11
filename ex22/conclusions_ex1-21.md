@@ -1,5 +1,5 @@
 ### EX22
-### Laearned Pywords list
+### Learned Pywords list
 
  * print
  * input
